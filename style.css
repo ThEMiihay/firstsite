@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color:#ccffb3; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.DasboardHome {
+    width: 1910px;
+    height: 55px;
+    color: black;
+    border-radius: 5px;
+    background-color: darkred;
+}
+
+.ShopPage {
+    width: 1910px;
+    height: 55px;
+    background-color: darkred;
+    border-radius: 5px;
+}
+
+.AboutPage {
+    width: 1910px;
+    height: 55px;
+    background-color: darkred;
+    border-radius: 5px;
+}
+
+
+
+
+.wcm {
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+nav {
+    background: #0086e2;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 60px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+a.active,
+a:hover {
+    background: #1b9bff;
+    transition: 5s;
+}
+
+.img-logo {
+    position: relative;
+    height: 5em;
+    top: -5em;
+
+}
+
+footer {
+    position: fixed;
+
+}
+
+.endpage{
+    position: absolute;
+    background: gray;
+    width: 1886px;
+    height: 18px;
+    padding: 10px;
+    
+}
+
+/* google font import */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;   
+    width: 100%;
+    
+}
+
+.form .input-field{
+    margin-top: 30px;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: #0086e2;
+
+}
+.input-field input{
+    
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+
+}
+.input-fields i{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(50%);
+    
+}
